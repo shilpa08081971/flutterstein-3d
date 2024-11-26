@@ -1,7 +1,7 @@
-name: flutterstein_3d
-description: A 3D raycaster implemented in Flutter.
+name: flutterstein_3d_art
+description: A 3D raycaster implemented in Flutter, Improving ...
 
-author: Daniel Anton Mata <anton.mata@gmail.com>
+# author: Daniel Anton Mata <anton.mata@gmail.com>
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -12,7 +12,8 @@ author: Daniel Anton Mata <anton.mata@gmail.com>
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  # sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: ">=2.12.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -20,13 +21,13 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.2
+  cupertino_icons:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_launcher_icons: ^0.7.0
+  flutter_launcher_icons:
 
 flutter_icons:
   android: true
